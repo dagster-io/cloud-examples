@@ -1,0 +1,11 @@
+locations:
+  - location_name: location1
+    build:
+      directory: location1-dir
+    code_source:
+      package_name: location1
+  - location_name: location2
+    build:
+      directory: location2-dir
+    code_source:
+      package_name: location2
