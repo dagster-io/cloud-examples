@@ -24,7 +24,7 @@ This example shows how to create a dagster project with two code locations. Each
 
 
 ./location2-dir
-./location2-dir/requirements.txt  # this inclused ../shared-dir
+./location2-dir/requirements.txt  # this includes ../shared-dir
 ./location2-dir/setup.py          # this includes location2 specific dependencies
 ./location2-dir/location2
 ./location2-dir/location2/__init__.py
