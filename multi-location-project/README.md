@@ -30,3 +30,19 @@ This example shows how to create a dagster project with two code locations. Each
 ./location2-dir/location2/__init__.py
 ./location2-dir/location2/assets.py
 ```
+
+## Running locally
+To run locally via `dagster dev`, pip install the two projects:
+
+```
+cd ./location1-dir
+pip install -e .[dev] -r requirements.txt
+cd ../location2-dir
+pip install -e .[dev] -r requirements.txt
+```
+
+And run `dagster dev` in this folder, which will use the `workspace.yaml` file to load both Dagster projects in the Dagster UI:
+
+```
+dagster dev
+```

@@ -8,5 +8,5 @@ setup(
         "dagster-cloud",
         "cowsay==5.0",
     ],
-    extras_require={"dev": ["dagit", "pytest"]},
+    extras_require={"dev": ["dagster-webserver", "pytest"]},
 )

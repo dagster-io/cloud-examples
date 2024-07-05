@@ -1,0 +1,9 @@
+load_from:
+  - python_package:
+      package_name: location1
+      location_name: location1
+#      working_directory: location1-dir
+  - python_package:
+      package_name: location2
+      location_name: location2
+#      working_directory: location2-dir
