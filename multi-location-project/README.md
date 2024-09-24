@@ -36,9 +36,9 @@ To run locally via `dagster dev`, pip install the two projects:
 
 ```
 cd ./location1-dir
-pip install -e .[dev] -r requirements.txt
+pip install -e ".[dev]" -r requirements.txt
 cd ../location2-dir
-pip install -e .[dev] -r requirements.txt
+pip install -e ".[dev]" -r requirements.txt
 ```
 
 And run `dagster dev` in this folder, which will use the `workspace.yaml` file to load both Dagster projects in the Dagster UI:
